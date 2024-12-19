@@ -1,10 +1,658 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cherrytree>
   <bookmarks list=""/>
-  <node name="NAHID" unique_id="1" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="14" is_bold="0" foreground="" ts_creation="1733584664" ts_lastsave="1733585613">
+  <node name="NAHID" unique_id="1" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="14" is_bold="0" foreground="" ts_creation="1733584664" ts_lastsave="1733585939">
     <rich_text># NAHID
 
 </rich_text>
     <rich_text scale="h1">Hello NAHID!</rich_text>
   </node>
+  <node name="venv" unique_id="2" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1733585939" ts_lastsave="1733601106">
+    <rich_text># Create a Virtual Environment
+
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text>
+
+# Activate the Virtual Environment
+
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text>
+
+# macOS/Linux:
+
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text>
+
+# Deactivate the Virtual Environment
+
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text>
+
+# To install a specific package
+
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text>
+
+# Save the list of installed packages to requirements.txt
+
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text>
+
+# Install all packages from requirements.txt
+
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text>
+
+# Delete the venv folder
+
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text>
+
+# 	Upgrade pip to the latest version
+
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <codebox char_offset="32" justification="left" frame_width="700" frame_height="50" width_in_pixels="1" syntax_highlighting="sh" highlight_brackets="1" show_line_numbers="1">python3 -m venv venv</codebox>
+    <codebox char_offset="71" justification="left" frame_width="700" frame_height="50" width_in_pixels="1" syntax_highlighting="sh" highlight_brackets="1" show_line_numbers="1">venv\Scripts\activate</codebox>
+    <codebox char_offset="90" justification="left" frame_width="700" frame_height="50" width_in_pixels="1" syntax_highlighting="sh" highlight_brackets="1" show_line_numbers="1">source venv/bin/activate</codebox>
+    <codebox char_offset="131" justification="left" frame_width="700" frame_height="50" width_in_pixels="1" syntax_highlighting="sh" highlight_brackets="1" show_line_numbers="1">deactivate</codebox>
+    <codebox char_offset="167" justification="left" frame_width="700" frame_height="50" width_in_pixels="1" syntax_highlighting="sh" highlight_brackets="1" show_line_numbers="1">pip install package_name</codebox>
+    <codebox char_offset="229" justification="left" frame_width="700" frame_height="50" width_in_pixels="1" syntax_highlighting="sh" highlight_brackets="1" show_line_numbers="1">pip freeze &gt; requirements.txt</codebox>
+    <codebox char_offset="278" justification="left" frame_width="700" frame_height="50" width_in_pixels="1" syntax_highlighting="sh" highlight_brackets="1" show_line_numbers="1">pip install -r requirements.txt</codebox>
+    <codebox char_offset="307" justification="left" frame_width="700" frame_height="50" width_in_pixels="1" syntax_highlighting="sh" highlight_brackets="1" show_line_numbers="1">rm -rf venv</codebox>
+    <codebox char_offset="348" justification="left" frame_width="700" frame_height="50" width_in_pixels="1" syntax_highlighting="sh" highlight_brackets="1" show_line_numbers="1">pip install --upgrade pip</codebox>
+  </node>
+  <node name="python" unique_id="3" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1733586915" ts_lastsave="1733586924"/>
+  <node name="django" unique_id="4" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1733586924" ts_lastsave="1733601857">
+    <node name="setup" unique_id="5" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1733586929" ts_lastsave="1733591535">
+      <rich_text># Install Django in Virtual Environment
+
+</rich_text>
+      <rich_text justification="left"></rich_text>
+      <rich_text>
+
+# Create a New Django Project
+
+</rich_text>
+      <rich_text justification="left"></rich_text>
+      <rich_text>
+
+# Run the Development Server
+
+</rich_text>
+      <rich_text justification="left"></rich_text>
+      <rich_text>
+
+</rich_text>
+      <rich_text justification="left"></rich_text>
+      <rich_text>
+
+# Kill Running Port
+
+</rich_text>
+      <rich_text justification="left"></rich_text>
+      <rich_text>
+
+# Start a New Django App
+
+</rich_text>
+      <rich_text justification="left"></rich_text>
+      <rich_text>
+
+# Apply Migrations
+
+</rich_text>
+      <rich_text justification="left"></rich_text>
+      <rich_text>
+
+# Create Migration Files
+
+</rich_text>
+      <rich_text justification="left"></rich_text>
+      <rich_text>
+
+# Create a Superuser
+
+</rich_text>
+      <rich_text justification="left"></rich_text>
+      <rich_text>
+
+# View SQL for Migrations
+
+</rich_text>
+      <rich_text justification="left"></rich_text>
+      <rich_text>
+
+# Check for Issues (Django Debugging)
+
+</rich_text>
+      <rich_text justification="left"></rich_text>
+      <rich_text>
+
+# View Available Commands
+
+</rich_text>
+      <rich_text justification="left"></rich_text>
+      <rich_text>
+
+# Collect Static Files
+
+</rich_text>
+      <rich_text justification="left"></rich_text>
+      <rich_text>
+
+</rich_text>
+      <codebox char_offset="41" justification="left" frame_width="700" frame_height="50" width_in_pixels="1" syntax_highlighting="sh" highlight_brackets="1" show_line_numbers="1">pip install Django</codebox>
+      <codebox char_offset="75" justification="left" frame_width="700" frame_height="50" width_in_pixels="1" syntax_highlighting="sh" highlight_brackets="1" show_line_numbers="1">django-admin startproject project_name</codebox>
+      <codebox char_offset="108" justification="left" frame_width="700" frame_height="50" width_in_pixels="1" syntax_highlighting="sh" highlight_brackets="1" show_line_numbers="1">python manage.py runserver</codebox>
+      <codebox char_offset="111" justification="left" frame_width="700" frame_height="50" width_in_pixels="1" syntax_highlighting="sh" highlight_brackets="1" show_line_numbers="1">python manage.py runserver 8001</codebox>
+      <codebox char_offset="135" justification="left" frame_width="700" frame_height="50" width_in_pixels="1" syntax_highlighting="sh" highlight_brackets="1" show_line_numbers="1">lsof -t -i tcp:8000 | xargs kill -9</codebox>
+      <codebox char_offset="164" justification="left" frame_width="700" frame_height="50" width_in_pixels="1" syntax_highlighting="sh" highlight_brackets="1" show_line_numbers="1">python manage.py startapp app_name</codebox>
+      <codebox char_offset="187" justification="left" frame_width="700" frame_height="50" width_in_pixels="1" syntax_highlighting="sh" highlight_brackets="1" show_line_numbers="1">python manage.py migrate</codebox>
+      <codebox char_offset="216" justification="left" frame_width="700" frame_height="50" width_in_pixels="1" syntax_highlighting="sh" highlight_brackets="1" show_line_numbers="1">python manage.py makemigrations</codebox>
+      <codebox char_offset="241" justification="left" frame_width="700" frame_height="50" width_in_pixels="1" syntax_highlighting="sh" highlight_brackets="1" show_line_numbers="1">python manage.py createsuperuser</codebox>
+      <codebox char_offset="271" justification="left" frame_width="700" frame_height="50" width_in_pixels="1" syntax_highlighting="sh" highlight_brackets="1" show_line_numbers="1">python manage.py sqlmigrate app_name migration_number</codebox>
+      <codebox char_offset="313" justification="left" frame_width="700" frame_height="50" width_in_pixels="1" syntax_highlighting="sh" highlight_brackets="1" show_line_numbers="1">python manage.py check</codebox>
+      <codebox char_offset="343" justification="left" frame_width="700" frame_height="50" width_in_pixels="1" syntax_highlighting="sh" highlight_brackets="1" show_line_numbers="1">python manage.py help</codebox>
+      <codebox char_offset="370" justification="left" frame_width="700" frame_height="50" width_in_pixels="1" syntax_highlighting="sh" highlight_brackets="1" show_line_numbers="1">python manage.py collectstatic</codebox>
+    </node>
+    <node name="config" unique_id="6" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1733591681" ts_lastsave="1733591684">
+      <rich_text># Configure static file location (CSS, JavaScript, Image)
+
+</rich_text>
+      <rich_text justification="left"></rich_text>
+      <rich_text>
+
+# Static files (CSS, JavaScript, Images)
+
+</rich_text>
+      <rich_text justification="left"></rich_text>
+      <rich_text>
+
+# Configuring static files for development.
+
+# Adding own app to the list of installed apps
+
+</rich_text>
+      <rich_text justification="left"></rich_text>
+      <rich_text>
+
+
+# Automatically reload the browser. Add the following code on location
+
+</rich_text>
+      <rich_text justification="left"></rich_text>
+      <rich_text>
+
+</rich_text>
+      <rich_text justification="left"></rich_text>
+      <rich_text>
+
+</rich_text>
+      <rich_text justification="left"></rich_text>
+      <rich_text>
+
+
+</rich_text>
+      <codebox char_offset="59" justification="left" frame_width="700" frame_height="50" width_in_pixels="1" syntax_highlighting="python3" highlight_brackets="1" show_line_numbers="1">import os</codebox>
+      <codebox char_offset="104" justification="left" frame_width="738" frame_height="50" width_in_pixels="1" syntax_highlighting="python3" highlight_brackets="1" show_line_numbers="1">STATIC_URL = 'static/'
+
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]</codebox>
+      <codebox char_offset="200" justification="left" frame_width="700" frame_height="50" width_in_pixels="1" syntax_highlighting="python3" highlight_brackets="1" show_line_numbers="1">THIRD_PARTY_APPS = [
+    'rest_framework',
+    'django_filters'
+]
+
+INSTALLED_APPS += THIRD_PARTY_APPS
+
+MY_APPS = [
+
+]
+
+INSTALLED_APPS += MY_APPS</codebox>
+      <codebox char_offset="276" justification="left" frame_width="700" frame_height="50" width_in_pixels="1" syntax_highlighting="python3" highlight_brackets="1" show_line_numbers="1"># App for Browser Auto Relod (settings.py)
+'django_browser_reload',</codebox>
+      <codebox char_offset="279" justification="left" frame_width="816" frame_height="50" width_in_pixels="1" syntax_highlighting="python3" highlight_brackets="1" show_line_numbers="1"># Browser reload middleware (settings.py)
+'django_browser_reload.middleware.BrowserReloadMiddleware',</codebox>
+      <codebox char_offset="282" justification="left" frame_width="816" frame_height="50" width_in_pixels="1" syntax_highlighting="python3" highlight_brackets="1" show_line_numbers="1"># Auto reload browser on file changes (urls.py)
+path("__reload__/", include("django_browser_reload.urls")),</codebox>
+    </node>
+    <node name="urls.py" unique_id="7" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1733591729" ts_lastsave="1733592213">
+      <rich_text>
+</rich_text>
+      <rich_text justification="left"></rich_text>
+      <rich_text>
+
+# Django URLS Pattern
+
+</rich_text>
+      <rich_text justification="left"></rich_text>
+      <rich_text>
+
+# Auto URL Routing
+
+</rich_text>
+      <rich_text justification="left"></rich_text>
+      <codebox char_offset="1" justification="left" frame_width="998" frame_height="50" width_in_pixels="1" syntax_highlighting="python3" highlight_brackets="1" show_line_numbers="1"># URL Configuration for the new app
+from django.urls import path
+from . import views
+
+urlpatterns = [
+    path('', views.home, name='home'), # Home page route with name 'home'
+]</codebox>
+      <codebox char_offset="27" justification="left" frame_width="1258" frame_height="50" width_in_pixels="1" syntax_highlighting="python3" highlight_brackets="1" show_line_numbers="1">from django.contrib import admin
+from django.urls import path, include # Import include
+from . import views
+
+urlpatterns = [
+    path('admin/', admin.site.urls), # Django admin route
+    path('', views.home, name='home'), # Home page route with name 'home'
+    path('about/', views.about, name='about'), # About page route with name 'about
+    path('contact/', views.contact, name='contact'), # Contact page route with name 'contact'
+    # name parameter is used to identify the URL
+    
+    path('newApp/', include('newApp.urls')), # Django app route with include function
+]</codebox>
+      <codebox char_offset="50" justification="left" frame_width="985" frame_height="50" width_in_pixels="1" syntax_highlighting="python3" highlight_brackets="1" show_line_numbers="1">from django.urls import path, include
+from rest_framework import routers
+
+from . import views
+
+# Automatic URL routing
+route = routers.DefaultRouter()
+route.register(r'person', views.PersonViewSet, basename='PersonViewSet')
+
+# The API URLs are now determined automatically by the router.
+urlpatterns = [
+    path('', include(route.urls))
+]</codebox>
+    </node>
+    <node name="models.py" unique_id="8" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1733591905" ts_lastsave="1733592175">
+      <rich_text># Define Choices
+
+</rich_text>
+      <rich_text justification="left"></rich_text>
+      <rich_text>
+
+# Use Choices in a Model Field
+
+</rich_text>
+      <rich_text justification="left"></rich_text>
+      <codebox char_offset="18" justification="left" frame_width="700" frame_height="50" width_in_pixels="1" syntax_highlighting="python3" highlight_brackets="1" show_line_numbers="1">PRIORITY_CHOICES = [
+    ('L', 'Low'),
+    ('M', 'Medium'),
+    ('H', 'High'),
+]</codebox>
+      <codebox char_offset="53" justification="left" frame_width="716" frame_height="50" width_in_pixels="1" syntax_highlighting="python3" highlight_brackets="1" show_line_numbers="1">from django.db import models
+
+class Task(models.Model):
+    name = models.CharField(max_length=100)
+    priority = models.CharField(
+        max_length=1, 
+        choices=PRIORITY_CHOICES, 
+        default='M'
+    )
+
+    def __str__(self):
+        return f"{self.name} ({self.get_priority_display()})"</codebox>
+    </node>
+    <node name="serializers.py" unique_id="9" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1733592499" ts_lastsave="1733592499"/>
+    <node name="views.py" unique_id="10" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1733592509" ts_lastsave="1733592732">
+      <rich_text># Importing HttpResponse
+
+</rich_text>
+      <rich_text justification="left"></rich_text>
+      <rich_text>
+
+# Defining a Function Named `index`
+
+</rich_text>
+      <rich_text justification="left"></rich_text>
+      <rich_text>
+
+# Importing `render` Function for Rendering Templates
+
+</rich_text>
+      <rich_text justification="left"></rich_text>
+      <rich_text>
+
+# Handling JSON Responses
+
+</rich_text>
+      <rich_text justification="left"></rich_text>
+      <rich_text>
+
+# Redirecting to Another URL
+
+</rich_text>
+      <rich_text justification="left"></rich_text>
+      <rich_text>
+
+# Using `Http404` to Raise 404 Errors
+
+</rich_text>
+      <rich_text justification="left"></rich_text>
+      <rich_text>
+
+# Rendering a Template with Context Data
+
+</rich_text>
+      <rich_text justification="left"></rich_text>
+      <codebox char_offset="26" justification="left" frame_width="998" frame_height="50" width_in_pixels="1" syntax_highlighting="python3" highlight_brackets="1" show_line_numbers="1">from django.http import HttpResponse</codebox>
+      <codebox char_offset="66" justification="left" frame_width="998" frame_height="50" width_in_pixels="1" syntax_highlighting="python3" highlight_brackets="1" show_line_numbers="1">def index(request):
+    # Returning an HttpResponse object with a string "Hello, World!"
+    return HttpResponse("Hello, World!")
+    # This is the response that will be shown on the browser</codebox>
+      <codebox char_offset="124" justification="left" frame_width="998" frame_height="50" width_in_pixels="1" syntax_highlighting="python3" highlight_brackets="1" show_line_numbers="1">from django.shortcuts import render
+
+# Defining a Function Named `index` to Render a Template
+def index(request):
+    # Rendering the index.html template
+    return render(request, 'index.html')</codebox>
+      <codebox char_offset="154" justification="left" frame_width="998" frame_height="50" width_in_pixels="1" syntax_highlighting="python3" highlight_brackets="1" show_line_numbers="1">from django.http import JsonResponse
+
+def json_view(request):
+    # Returning a JSON response
+    data = {'message': 'Hello, JSON!', 'status': 'success'}
+    return JsonResponse(data)</codebox>
+      <codebox char_offset="187" justification="left" frame_width="998" frame_height="50" width_in_pixels="1" syntax_highlighting="python3" highlight_brackets="1" show_line_numbers="1">from django.shortcuts import redirect
+
+def redirect_view(request):
+    # Redirecting to another URL
+    return redirect('https://www.nazmulhassan.dev')</codebox>
+      <codebox char_offset="229" justification="left" frame_width="998" frame_height="50" width_in_pixels="1" syntax_highlighting="python3" highlight_brackets="1" show_line_numbers="1">from django.http import Http404
+
+def custom_404_view(request):
+    # Raising a 404 error
+    raise Http404("This page does not exist.")</codebox>
+      <codebox char_offset="274" justification="left" frame_width="998" frame_height="50" width_in_pixels="1" syntax_highlighting="python3" highlight_brackets="1" show_line_numbers="1">def index_with_context(request):
+    context = {'title': 'Welcome', 'message': 'Hello, World!'}
+    return render(request, 'index.html', context)</codebox>
+    </node>
+    <node name="admin.py" unique_id="11" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1733601199" ts_lastsave="1733601289">
+      <rich_text># Auto-register all models in the app
+
+</rich_text>
+      <rich_text justification="left"></rich_text>
+      <rich_text>
+
+# Example of manually registering a model with custom admin options
+
+</rich_text>
+      <rich_text justification="left"></rich_text>
+      <codebox char_offset="39" justification="left" frame_width="700" frame_height="50" width_in_pixels="1" syntax_highlighting="python3" highlight_brackets="1" show_line_numbers="1"># Import necessary modules
+from django.contrib import admin
+from django.apps import apps
+
+# Auto-register all models in the app
+app = apps.get_app_config("quickstart")
+
+for model in app.get_models():
+    try:
+        admin.site.register(model)
+    except admin.sites.AlreadyRegistered:
+        pass</codebox>
+      <codebox char_offset="111" justification="left" frame_width="1068" frame_height="50" width_in_pixels="1" syntax_highlighting="python3" highlight_brackets="1" show_line_numbers="1">from .models import Task
+
+@admin.register(Task)
+class TaskAdmin(admin.ModelAdmin):
+    list_display = ('name', 'priority', 'created_at')  # Fields to display in admin list view
+    list_filter = ('priority',)  # Filters for sidebar
+    search_fields = ('name',)  # Searchable fields
+    ordering = ('-created_at',)  # Default ordering
+    fields = ('name', 'priority', 'description', 'created_at')  # Fields to display in form
+    readonly_fields = ('created_at',)  # Read-only fields
+
+# Inline Admin Example for Related Models
+from .models import Project, Task
+
+class TaskInline(admin.TabularInline):  # Or admin.StackedInline
+    model = Task
+    extra = 1  # Number of empty forms to display in admin
+
+@admin.register(Project)
+class ProjectAdmin(admin.ModelAdmin):
+    inlines = [TaskInline]</codebox>
+    </node>
+    <node name="rest-framework" unique_id="12" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1733601373" ts_lastsave="1733601706">
+      <rich_text># Install Django Rest Framework
+
+</rich_text>
+      <rich_text justification="left"></rich_text>
+      <rich_text>
+
+# Add 'rest_framework' to your INSTALLED_APPS setting
+
+</rich_text>
+      <rich_text justification="left"></rich_text>
+      <rich_text>
+
+# Date and Time Formatting
+
+</rich_text>
+      <rich_text justification="left"></rich_text>
+      <rich_text>
+
+# Filtering support using Django Filter
+
+</rich_text>
+      <rich_text justification="left"></rich_text>
+      <rich_text>
+
+# Control the number of results returned per page in API responses
+
+</rich_text>
+      <rich_text justification="left"></rich_text>
+      <rich_text>
+
+# Set up authentication methods like token-based or session-based
+
+</rich_text>
+      <rich_text justification="left"></rich_text>
+      <codebox char_offset="33" justification="left" frame_width="998" frame_height="50" width_in_pixels="1" syntax_highlighting="sh" highlight_brackets="1" show_line_numbers="1">pip install djangorestframework</codebox>
+      <codebox char_offset="91" justification="left" frame_width="998" frame_height="50" width_in_pixels="1" syntax_highlighting="python3" highlight_brackets="1" show_line_numbers="1">INSTALLED_APPS = [
+
+    'rest_framework',
+]</codebox>
+      <codebox char_offset="122" justification="left" frame_width="998" frame_height="50" width_in_pixels="1" syntax_highlighting="python3" highlight_brackets="1" show_line_numbers="1">REST_FRAMEWORK = {
+    # Default Date and Time format
+    'DATETIME_FORMAT': "%d-%b-%Y, %a %I:%M %p",
+    'DATE_FORMAT': '%d-%b-%Y',
+}</codebox>
+      <codebox char_offset="166" justification="left" frame_width="998" frame_height="50" width_in_pixels="1" syntax_highlighting="sh" highlight_brackets="1" show_line_numbers="1">pip install django-filter</codebox>
+      <codebox char_offset="237" justification="left" frame_width="998" frame_height="50" width_in_pixels="1" syntax_highlighting="python3" highlight_brackets="1" show_line_numbers="1">REST_FRAMEWORK = {
+    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
+    'PAGE_SIZE': 10,  # Number of results per page
+}</codebox>
+      <codebox char_offset="307" justification="left" frame_width="1090" frame_height="50" width_in_pixels="1" syntax_highlighting="python3" highlight_brackets="1" show_line_numbers="1">REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework.authentication.SessionAuthentication',
+        'rest_framework.authentication.TokenAuthentication',
+    ],
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.IsAuthenticated',  # Restrict access to authenticated users
+    ],
+}</codebox>
+    </node>
+  </node>
+  <node name="docker" unique_id="13" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1733601857" ts_lastsave="1733774286">
+    <rich_text scale="h3">Docker Basics</rich_text>
+    <rich_text>
+
+# Check Docker version
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text>
+# Display Docker system info
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text>
+
+</rich_text>
+    <rich_text scale="h3">Docker Compose</rich_text>
+    <rich_text>
+
+# Start services in the background
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text>
+# Stop services
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text>
+# View services logs
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text>
+# Rebuild and start services
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text>
+
+</rich_text>
+    <rich_text scale="h3">Docker Containers</rich_text>
+    <rich_text>
+
+# List running containers
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text>
+# List all containers (running + stopped)
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text>
+# Start a container
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text>
+# Stop a container
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text>
+# Remove a container
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text>
+# Force remove a running container
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text>
+# Access a running container
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text>
+# Stop all running containers
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text>
+# Remove all containers
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text>
+
+</rich_text>
+    <rich_text scale="h3">Docker Images</rich_text>
+    <rich_text>
+
+# List all images
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text>
+# Remove an image
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text>
+# Remove all unused images
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text>
+
+</rich_text>
+    <rich_text scale="h3">Docker Volumes</rich_text>
+    <rich_text>
+
+# List volumes
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text>
+# Create a volume
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text>
+# Remove a volume
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text>
+# Remove all unused volumes
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text>
+
+</rich_text>
+    <rich_text scale="h3">Docker Logs</rich_text>
+    <rich_text>
+
+# View container logs
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text>
+# Follow logs in real-time
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text>
+
+</rich_text>
+    <rich_text scale="h3">System Cleanup</rich_text>
+    <rich_text>
+
+# Remove all stopped containers, unused images, networks, and volumes
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text>
+# View disk usage by Docker
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text>
+
+# Git Clone from Github
+
+</rich_text>
+    <codebox char_offset="38" justification="left" frame_width="998" frame_height="50" width_in_pixels="1" syntax_highlighting="sh" highlight_brackets="1" show_line_numbers="1">docker --version</codebox>
+    <codebox char_offset="69" justification="left" frame_width="998" frame_height="50" width_in_pixels="1" syntax_highlighting="sh" highlight_brackets="1" show_line_numbers="1">docker info</codebox>
+    <codebox char_offset="123" justification="left" frame_width="998" frame_height="50" width_in_pixels="1" syntax_highlighting="sh" highlight_brackets="1" show_line_numbers="1">docker compose up -d</codebox>
+    <codebox char_offset="141" justification="left" frame_width="998" frame_height="50" width_in_pixels="1" syntax_highlighting="sh" highlight_brackets="1" show_line_numbers="1">docker compose down</codebox>
+    <codebox char_offset="164" justification="left" frame_width="998" frame_height="50" width_in_pixels="1" syntax_highlighting="sh" highlight_brackets="1" show_line_numbers="1">docker compose logs</codebox>
+    <codebox char_offset="195" justification="left" frame_width="998" frame_height="50" width_in_pixels="1" syntax_highlighting="sh" highlight_brackets="1" show_line_numbers="1">docker compose up --build</codebox>
+    <codebox char_offset="243" justification="left" frame_width="998" frame_height="50" width_in_pixels="1" syntax_highlighting="sh" highlight_brackets="1" show_line_numbers="1">docker ps</codebox>
+    <codebox char_offset="287" justification="left" frame_width="998" frame_height="50" width_in_pixels="1" syntax_highlighting="sh" highlight_brackets="1" show_line_numbers="1">docker ps -a</codebox>
+    <codebox char_offset="309" justification="left" frame_width="998" frame_height="50" width_in_pixels="1" syntax_highlighting="sh" highlight_brackets="1" show_line_numbers="1">docker start container_id</codebox>
+    <codebox char_offset="330" justification="left" frame_width="998" frame_height="50" width_in_pixels="1" syntax_highlighting="sh" highlight_brackets="1" show_line_numbers="1">docker stop container_id</codebox>
+    <codebox char_offset="353" justification="left" frame_width="998" frame_height="50" width_in_pixels="1" syntax_highlighting="sh" highlight_brackets="1" show_line_numbers="1">docker rm container_id</codebox>
+    <codebox char_offset="390" justification="left" frame_width="998" frame_height="50" width_in_pixels="1" syntax_highlighting="sh" highlight_brackets="1" show_line_numbers="1">docker rm -f container_id</codebox>
+    <codebox char_offset="421" justification="left" frame_width="998" frame_height="50" width_in_pixels="1" syntax_highlighting="sh" highlight_brackets="1" show_line_numbers="1">docker exec -it  /bin/bash</codebox>
+    <codebox char_offset="453" justification="left" frame_width="998" frame_height="50" width_in_pixels="1" syntax_highlighting="sh" highlight_brackets="1" show_line_numbers="1">docker stop $(docker ps -q)</codebox>
+    <codebox char_offset="479" justification="left" frame_width="998" frame_height="50" width_in_pixels="1" syntax_highlighting="sh" highlight_brackets="1" show_line_numbers="1">docker rm $(docker ps -aq)</codebox>
+    <codebox char_offset="515" justification="left" frame_width="998" frame_height="50" width_in_pixels="1" syntax_highlighting="sh" highlight_brackets="1" show_line_numbers="1">docker images</codebox>
+    <codebox char_offset="535" justification="left" frame_width="998" frame_height="50" width_in_pixels="1" syntax_highlighting="sh" highlight_brackets="1" show_line_numbers="1">docker rmi image_id</codebox>
+    <codebox char_offset="564" justification="left" frame_width="998" frame_height="50" width_in_pixels="1" syntax_highlighting="sh" highlight_brackets="1" show_line_numbers="1">docker image prune -a</codebox>
+    <codebox char_offset="598" justification="left" frame_width="998" frame_height="50" width_in_pixels="1" syntax_highlighting="sh" highlight_brackets="1" show_line_numbers="1">docker volume ls</codebox>
+    <codebox char_offset="618" justification="left" frame_width="998" frame_height="50" width_in_pixels="1" syntax_highlighting="sh" highlight_brackets="1" show_line_numbers="1">docker volume create volume_name</codebox>
+    <codebox char_offset="638" justification="left" frame_width="998" frame_height="50" width_in_pixels="1" syntax_highlighting="sh" highlight_brackets="1" show_line_numbers="1">docker volume rm volume_name</codebox>
+    <codebox char_offset="668" justification="left" frame_width="998" frame_height="50" width_in_pixels="1" syntax_highlighting="sh" highlight_brackets="1" show_line_numbers="1">docker volume prune</codebox>
+    <codebox char_offset="706" justification="left" frame_width="998" frame_height="50" width_in_pixels="1" syntax_highlighting="sh" highlight_brackets="1" show_line_numbers="1">docker logs container_id</codebox>
+    <codebox char_offset="735" justification="left" frame_width="998" frame_height="50" width_in_pixels="1" syntax_highlighting="sh" highlight_brackets="1" show_line_numbers="1">docker logs -f container_id</codebox>
+    <codebox char_offset="824" justification="left" frame_width="998" frame_height="50" width_in_pixels="1" syntax_highlighting="sh" highlight_brackets="1" show_line_numbers="1">docker system prune -a</codebox>
+    <codebox char_offset="854" justification="left" frame_width="998" frame_height="50" width_in_pixels="1" syntax_highlighting="sh" highlight_brackets="1" show_line_numbers="1">docker system df</codebox>
+    <node name="Dockerfile" unique_id="14" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1733602962" ts_lastsave="1733603012"/>
+    <node name="docker-compose.yml" unique_id="15" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1733602984" ts_lastsave="1733603022"/>
+  </node>
+  <node name="nginx" unique_id="16" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1733761933" ts_lastsave="1734645173"/>
 </cherrytree>
