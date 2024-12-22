@@ -70,7 +70,18 @@
     <codebox char_offset="307" justification="left" frame_width="700" frame_height="50" width_in_pixels="1" syntax_highlighting="sh" highlight_brackets="1" show_line_numbers="1">rm -rf venv</codebox>
     <codebox char_offset="348" justification="left" frame_width="700" frame_height="50" width_in_pixels="1" syntax_highlighting="sh" highlight_brackets="1" show_line_numbers="1">pip install --upgrade pip</codebox>
   </node>
-  <node name="python" unique_id="3" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1733586915" ts_lastsave="1733586924"/>
+  <node name="python" unique_id="3" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1733586915" ts_lastsave="1734821205">
+    <rich_text>NOTES:
+
+</rich_text>
+    <codebox char_offset="8" justification="left" frame_width="810" frame_height="50" width_in_pixels="1" syntax_highlighting="python3" highlight_brackets="1" show_line_numbers="0"># - strip() removes white space from the beginning and end of the string
+# - split() splits the string into a list of words
+# - [-1] gets the last word from the list
+# - len() returns the length of the string
+# - sort() sorts the list in ascending order
+# - sort(reverse=True) sorts the list in descending order
+</codebox>
+  </node>
   <node name="django" unique_id="4" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1733586924" ts_lastsave="1733601857">
     <node name="setup" unique_id="5" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1733586929" ts_lastsave="1733591535">
       <rich_text># Install Django in Virtual Environment
