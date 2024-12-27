@@ -74,6 +74,7 @@
     <rich_text>NOTES:
 
 </rich_text>
+    <rich_text justification="left"></rich_text>
     <codebox char_offset="8" justification="left" frame_width="810" frame_height="50" width_in_pixels="1" syntax_highlighting="python3" highlight_brackets="1" show_line_numbers="0"># - strip() removes white space from the beginning and end of the string
 # - split() splits the string into a list of words
 # - [-1] gets the last word from the list
@@ -665,5 +666,24 @@ class ProjectAdmin(admin.ModelAdmin):
     <node name="Dockerfile" unique_id="14" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1733602962" ts_lastsave="1733603012"/>
     <node name="docker-compose.yml" unique_id="15" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1733602984" ts_lastsave="1733603022"/>
   </node>
-  <node name="nginx" unique_id="16" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1733761933" ts_lastsave="1734645173"/>
+  <node name="nginx" unique_id="16" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1733761933" ts_lastsave="1735339347">
+    <rich_text># Installing Nginx
+
+Nginx is a web server that can be installed easily using package manager apt. To do this, first update your package manager's list of available software, then install Nginx:
+
+
+
+After installing, you need to open the firewall for Nginx. Use the ufw command to allow incoming HTTP (port 80) traffic:
+
+
+
+You can check if Nginx is running with:
+
+</rich_text>
+    <codebox char_offset="195" justification="left" frame_width="700" frame_height="50" width_in_pixels="1" syntax_highlighting="sh" highlight_brackets="1" show_line_numbers="0">sudo apt update
+
+sudo apt install nginx</codebox>
+    <codebox char_offset="320" justification="left" frame_width="700" frame_height="50" width_in_pixels="1" syntax_highlighting="sh" highlight_brackets="1" show_line_numbers="0">sudo ufw allow 'Nginx HTTP'</codebox>
+    <codebox char_offset="364" justification="left" frame_width="700" frame_height="50" width_in_pixels="1" syntax_highlighting="sh" highlight_brackets="1" show_line_numbers="0">systemctl status nginx</codebox>
+  </node>
 </cherrytree>
